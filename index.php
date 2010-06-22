@@ -23,10 +23,11 @@ if (!defined('IN_CMS')) { exit(); }
 Plugin::setInfos(array(
     'id'          => 'email_template',
     'title'       => 'Email template', 
-    'description' => 'Provides mailer backend to your forms.', 
+    'description' => 'Provides mailer backend for your forms.', 
     'version'     => '0.3.0',
     'author'      => 'Mika Tuupola & David Reimer',
     'license'     => 'MIT',
+    'require_wolf_version' => '0.5.5',
     'update_url'  => 'http://subversion.assembla.com/svn/wolf_tools/trunk/xml/plugin_versions.xml',
     'website'     => 'http://adajer.byethost5.com/'
 ));
