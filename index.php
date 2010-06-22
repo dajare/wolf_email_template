@@ -27,7 +27,7 @@ Plugin::setInfos(array(
     'version'     => '0.3.0',
     'author'      => 'Mika Tuupola & David Reimer',
     'license'     => 'MIT',
-    'update_url'  => 'http://www.appelsiini.net/download/frog-plugins.xml',
+    'update_url'  => 'http://subversion.assembla.com/svn/wolf_tools/trunk/xml/plugin_versions.xml',
     'website'     => 'http://adajer.byethost5.com/'
 ));
 
