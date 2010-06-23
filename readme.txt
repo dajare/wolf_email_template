@@ -9,7 +9,11 @@
 
 [Brief overview - see Documentation for full instructions]
 
-1. Enable plugin.
+1. Enable plugin: 
+   - copy the "email_contact" directory with ALL its contents to your wolf/plugins/directory
+   - go to the Administration > Plugins page, and check the "Enabled" box
+   - to the Settings tab, and save.
+   FULL instructions are now given from the Email Template link in the Admin page.
 2. Create page for form (e.g., "Contact").
 3. Create child of that page for template (e.g. "Template"), with
    Layout set to "-none-" and Page Type set to "Email template", 
