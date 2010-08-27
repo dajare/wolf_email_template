@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Email Template - Frog CMS behavior for Wolf
+ * Email Template - Wolf CMS behavior
  *
  * Copyright (c) 2008-2009 Mika Tuupola
  *
