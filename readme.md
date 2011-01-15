@@ -1,19 +1,18 @@
-# EMAIL TEMPLATE for WOLF CMS #
+# EMAIL TEMPLATE for WOLF CMS
 
 > Note: This readme.txt is readable text, but uses Markdown syntax
 > to make it more legible, and so that it can be rendered as HTML
 > by a Markdown interpreter.
 
-
-## Usage ##
+## Usage
 
 [Brief overview - see Documentation for full instructions]
 
 1. Enable plugin: 
-   - copy the "email_contact" directory with ALL its contents to your wolf/plugins/directory
-   - go to the Administration > Plugins page, and check the "Enabled" box
-   - to the Settings tab, and save.
-   FULL instructions are now given from the Email Template link in the Admin page.
+   - unzip archive, rename "wolf_email_contact" to "email_contact" (remove "wolf_");
+   - copy the "/email_contact" directory with ALL its contents to your /wolf/plugins/ directory;
+   - go to the Administration > Plugins page, and check the "Enabled" box;
+   - FULL instructions are now given from the Email Template link in the Admin page.
 2. Create page for form (e.g., "Contact").
 3. Create child of that page for template (e.g. "Template"), with
    Layout set to "-none-" and Page Type set to "Email template", 
@@ -21,15 +20,13 @@
 4. Create sibling to Template for Success message (set to "Hidden").
 5. Create sibling to Template for Fail message (set to "Hidden").
 
-
-## Development Roadmap/Wishlist ##
+## Development Roadmap/Wishlist
 
 - add error checking (non-destructive)
 - i18n for text strings
 - enable auto-create of pages/system
 
-
-## Changelog ##
+## Changelog
 
 0.3.0 - 2010mmdd
 
@@ -37,10 +34,9 @@
 + add security checks to plugin files
 + add "honeypot" spam trap
 
+## History
 
-## History ##
-
-This plugin was originally created by Mika Tuupola for Frog CMS.[1] After
+This plugin was originally created by Mika Tuupola for [Frog CMS][1]. After
 Wolf CMS forked from Frog, development of this plugin ceased. With the 
 permission of the original author, David Reimer picked up development of
 Email Template for Wolf in June 2010.
@@ -49,6 +45,4 @@ In fact, since there was no Frog-specific code in the plugin, there was
 nothing to "port"! But Mika's work provided a great base from which to
 extend this useful system.
 
-
-[1] http://www.appelsiini.net/projects/email_template
-
+[1]: http://www.appelsiini.net/projects/email_template
