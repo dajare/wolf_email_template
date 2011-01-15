@@ -1,8 +1,6 @@
 # EMAIL TEMPLATE for WOLF CMS
 
-> Note: This readme.txt is readable text, but uses Markdown syntax
-> to make it more legible, and so that it can be rendered as HTML
-> by a Markdown interpreter.
+Full installation and usage instructions are available at [Project 79][0].
 
 ## Usage
 
@@ -36,13 +34,14 @@
 
 ## History
 
-This plugin was originally created by Mika Tuupola for [Frog CMS][1]. After
+This plugin was originally created by [Mika Tuupola for Frog CMS][1]. After
 Wolf CMS forked from Frog, development of this plugin ceased. With the 
-permission of the original author, David Reimer picked up development of
-Email Template for Wolf in June 2010.
+permission of the original author, development of Email Template for Wolf
+began in June 2010.
 
 In fact, since there was no Frog-specific code in the plugin, there was
-nothing to "port"! But Mika's work provided a great base from which to
+nothing to "port"! But Email Template is an excellent base from which to
 extend this useful system.
 
+[0]: http://project79.net/projects/email-template
 [1]: http://www.appelsiini.net/projects/email_template
